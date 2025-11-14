@@ -229,16 +229,16 @@ Por ejemplo, si una página contiene información sobre una camioneta Ford, ento
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1 col-md-6">
-                    <form action="#" class="call__form">
+                    <form action="servidor.html" class="call__form" method="get">
                         <div class="row">
                             <div class="col-lg-6">
-                                <input type="text" placeholder="Nombre Completo">
+                                <input type="text" placeholder="Nombre Completo" required>
                             </div>
                             <div class="col-lg-6">
-                                <input type="text" placeholder="Email">
+                                <input type="email" placeholder="Email" required>
                             </div>
                             <div class="col-lg-6">
-                                <input type="text" placeholder="Telefono">
+                                <input type="text" placeholder="Telefono" required pattern="[0-9]{10}">
                             </div>
                             <div class="col-lg-6">
                                 <select>
